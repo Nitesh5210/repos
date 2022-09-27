@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.Zurich.Genericutility.ListnerImplementation"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Zurich_automation_Test.AutomationPaymentAddToClientTestNG"/>
+      <class name="com.Zurich_automation_Test.AutomateSearchBarTestNG"/>
+      <class name="com.Zurich_automation_Test.AutomateSearchclientAndDeleteclientTestNG"/>
+      <class name="com.Zurich_automation_Test.AutomationNewPaymentTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
